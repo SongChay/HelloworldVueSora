@@ -1,10 +1,6 @@
 <<<<<<< HEAD
 # HelloworldVueSora
 
-hi
-=======
-# helloworld
-
 ## Project setup
 ```
 npm install
@@ -15,16 +11,13 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Project feature:
 
-### Lints and fixes files
-```
-npm run lint
-```
+On the main page there is a button login which navigate to login page.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> fc4048d (first)
+the credential is:
+
+username: user
+password: 1234
+
+If you failed to login 3 times, it will lock. However, there is a new button showing which you can use to unlock the user. 
